@@ -26,6 +26,7 @@ function App() {
         <Routes>
 
           <Route path='/all' element={<ShopCategory category="all" />} />
+          <Route path='/elessi_demo' element={<ShopCategory category="all" />} />
           <Route path='/womens' element={<ShopCategory category="women" />} />
           <Route path='/onsale' element={<ShopCategory category="onsale" />} />
 
